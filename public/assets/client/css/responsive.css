@@ -1,0 +1,109 @@
+/* =======================================
+  Responsive-Section-Start 576px
+==========================================*/
+
+@media only screen and (max-width: 575px) {
+
+    /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+    #navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #navbar ul {
+        gap: 5px;
+    }
+
+    #navbar ul li a::before {
+        left: 0;
+    }
+
+    .footer .text p {
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .form-content h1 {
+        padding-bottom: 15px;
+    }
+
+    /* =======================================
+        Signup-Page-Start
+      ==========================================*/
+
+    .header .social {
+        display: none !important;
+    }
+
+    .form-outline .form-control {
+        width: 250px;
+    }
+
+    #signup {
+        padding: 10px 0 50px;
+    }
+
+    #signup .image {
+        padding-bottom: 20px;
+    }
+
+    /* =======================================
+        Signup-Page-End
+    ==========================================*/
+
+    /* =======================================
+        Started-Section-End
+    ==========================================*/
+
+    .role-card {
+        padding-bottom: 20px;
+    }
+
+    #role {
+        padding-bottom: 0;
+    }
+
+    /* =======================================
+        Started-Section-End
+    ==========================================*/
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+    #navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #navbar ul {
+        gap: 5px;
+    }
+
+    #navbar ul li a::before {
+        left: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+
+    /* =======================================
+    Navbar-Section-Start
+  ==========================================*/
+    #navbar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #navbar ul {
+        gap: 5px;
+    }
+
+    #navbar ul li a::before {
+        left: 0;
+    }
+}

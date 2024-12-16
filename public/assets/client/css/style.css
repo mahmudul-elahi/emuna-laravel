@@ -1,0 +1,880 @@
+/* =======================================
+  Google-Font-Start
+==========================================*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* =======================================
+    Google-Font-End
+==========================================*/
+
+/* =======================================
+  Header-Section-Start
+==========================================*/
+#header {
+    padding: 17px 0;
+}
+
+.header .social {
+    display: flex;
+    gap: 16px;
+}
+
+.header .social .icon {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #027752;
+    background: linear-gradient(74deg, #027752 42.27%, #23a684 88.84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.header .social .icon i {
+    color: rgba(2, 119, 82, 1);
+}
+
+.form-outline i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #929a96;
+}
+
+.form-outline .form-control {
+    width: 305px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+}
+
+.search .form-select {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* =======================================
+  Header-Section-End
+==========================================*/
+
+/* =======================================
+  Navbar-Section-Start
+==========================================*/
+#navbar {
+    width: 100%;
+    padding-bottom: 10px;
+    transition: all linear 0.3s;
+    z-index: 888;
+    background: #e9f6f3;
+}
+
+#navbar ul {
+    gap: 16px;
+}
+
+#navbar ul li a {
+    color: #51645f;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all linear 0.3s;
+    position: relative;
+}
+
+#navbar ul li a::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 8px;
+    width: 0px;
+    height: 1px;
+    background: #027752;
+    transition: all linear 0.3s;
+}
+
+#navbar ul li a:hover {
+    color: #027752;
+}
+
+#navbar ul li a:hover::before {
+    width: 25px;
+}
+
+#navbar .navbar-toggler {
+    background: #23a684;
+}
+
+.custom-toggler {
+    border-color: #fff;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: none;
+}
+
+.custom-toggler .navbar-toggler-icon::before,
+.custom-toggler .navbar-toggler-icon::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+.custom-toggler .navbar-toggler-icon span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* =======================================
+  Navbar-Section-End
+==========================================*/
+
+/* =======================================
+  Breadcrumb-Section-Start
+==========================================*/
+
+.breadcrumb {
+    padding: 35px 0 15px;
+}
+
+.breadcrumb .breadcrumb-item,
+.breadcrumb .breadcrumb-item i {
+    color: #929a96;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 15px;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.breadcrumb-item + .breadcrumb-item i {
+    font-size: 14px;
+}
+
+/* =======================================
+  Breadcrumb-Section-End
+==========================================*/
+
+/* =======================================
+  Text-Section-Start
+==========================================*/
+
+#form-content {
+}
+
+.form-content h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #203731;
+}
+
+.form-content h1 span {
+    background: linear-gradient(74deg, #027752 42.27%, #23a684 88.84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.form-content p {
+    color: #51645f;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.form-content p a {
+    color: #23a684;
+    font-style: italic;
+    font-weight: 500;
+    text-decoration: underline !important;
+}
+
+/* =======================================
+  Text-Section-End
+==========================================*/
+
+/* =======================================
+    Signup-Section-Start
+==========================================*/
+#signup {
+    padding: 50px 0 100px;
+}
+
+.signup-form label {
+    padding-bottom: 10px;
+    color: #51645f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.signup-form label span {
+    color: #f6ab2f;
+}
+
+.signup-form .form-control {
+    padding: 9px 10px;
+}
+
+.signup-form button {
+    border-radius: 8px;
+    background: linear-gradient(74deg, #027752 42.27%, #23a684 88.84%);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ebf5ff;
+    padding: 10px 0;
+}
+
+.signup-form .form-check .form-check-input:checked {
+    background-color: #027752;
+    border-color: #027752;
+}
+
+.signup-form .form-check label {
+    color: #7b7d82;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.signup-form .forgot a {
+    color: #51645f;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login-heading {
+    color: #51645f;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* =======================================
+    Signup-Section-End
+==========================================*/
+
+/* =======================================
+    Role-Section-Start
+==========================================*/
+#role {
+    padding-bottom: 60px;
+}
+
+.role-shadow {
+    padding: 24px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 4px 4px 30px 0px rgba(159, 167, 176, 0.1);
+}
+
+.role-header h4 {
+    color: #51645f;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.role-card {
+    border-radius: 12px;
+    background: #fff;
+}
+
+.role-card .role-card-header {
+    border-radius: 12px 12px 0px 0px;
+    border: 1px solid #cecdd2;
+    background: #e9f6f3;
+    padding: 24px;
+}
+
+.role-card .role-card-header h4 {
+    font-size: 30px;
+    font-weight: 500;
+    background: linear-gradient(74deg, #027752 42.27%, #23a684 88.84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 5px;
+}
+
+.role-card .role-card-header p {
+    color: #51645f;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.role-card .role-card-body {
+    border: 1px solid #cecdd2;
+    border-top: none;
+    padding: 24px;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.role-card .role-card-body h5 {
+    color: #51645f;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.role-card .role-card-body ul {
+    padding-left: 24px;
+    padding-top: 8px;
+}
+
+.role-card .role-card-body ul li {
+    color: #51645f;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+
+.role-card .role-card-body ul li:last-child {
+    padding-bottom: 0;
+}
+
+.role-card .role-card-body ul li::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -22px;
+    transform: translateY(-50%);
+    height: 10px;
+    width: 10px;
+    background: #23a684;
+    border-radius: 50%;
+}
+
+.role-card .role-card-body a {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #027752;
+    background: #fff;
+    color: #027752;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.role-card .role-card-body a:hover {
+    border: 1px solid #027752;
+    background: #027752;
+    color: #fff;
+}
+
+/* =======================================
+    Role-Section-End
+==========================================*/
+
+/* =======================================
+    Seller-Section-Start
+==========================================*/
+#seller {
+    padding: 40px 0 100px;
+}
+
+.seller-header h4 {
+    color: #51645f;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+
+.seller-form label {
+    padding-bottom: 10px;
+    color: #51645f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.seller-form label span {
+    color: #f6ab2f;
+}
+
+.seller-form .form-control {
+    padding: 9px 10px;
+}
+
+#condition {
+    color: #51645f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.seller-form .text h3 {
+    color: #394d48;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.seller-form .text p {
+    color: #7b7d82;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.seller-form ul {
+    border-radius: 8px;
+    background: #e9f6f3;
+    padding: 20px;
+}
+
+.seller-form ul li {
+    padding-bottom: 15px;
+    color: #929a96;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.seller-form ul li span {
+    color: #51645f;
+    font-weight: 500;
+}
+
+#prevBtn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #929a96;
+    background: #fff;
+    color: #929a96;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#prevBtn:hover {
+    border: 1px solid #027752;
+    background: #027752;
+    color: #fff;
+}
+
+#nextBtn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #027752;
+    background: #fff;
+    color: #027752;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#nextBtn:hover {
+    border: 1px solid #027752;
+    background: #027752;
+    color: #fff;
+}
+
+#submitBtn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #027752;
+    background: #027752;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* =======================================
+    Seller-Section-End
+==========================================*/
+
+/* =======================================
+    Franchiser-Section-Start
+==========================================*/
+#franchiser {
+    padding: 40px 0 100px;
+}
+
+.franchiser-header h4 {
+    color: #51645f;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 18px;
+}
+
+.franchiser-form label {
+    padding-bottom: 10px;
+    color: #51645f;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.franchiser-form .form-check label {
+    padding-bottom: 10px;
+    color: #51645f;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-check-inline {
+    margin-right: 40px;
+}
+
+.franchiser-form label span {
+    color: #f6ab2f;
+}
+
+.franchiser-form .form-control {
+    padding: 9px 10px;
+}
+
+#condition {
+    color: #51645f;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.franchiser-form .text h3 {
+    color: #394d48;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.franchiser-form .text p {
+    color: #7b7d82;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.franchiser-form ul {
+    border-radius: 8px;
+    background: #e9f6f3;
+    padding: 20px;
+}
+
+.franchiser-form ul li {
+    padding-bottom: 15px;
+    color: #929a96;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.franchiser-form ul li span {
+    color: #51645f;
+    font-weight: 500;
+}
+
+#prevBtn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #929a96;
+    background: #fff;
+    color: #929a96;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#prevBtn:hover {
+    border: 1px solid #027752;
+    background: #027752;
+    color: #fff;
+}
+
+#nextBtn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #027752;
+    background: #fff;
+    color: #027752;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+#nextBtn:hover {
+    border: 1px solid #027752;
+    background: #027752;
+    color: #fff;
+}
+
+#submitBtn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #027752;
+    background: #027752;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* =======================================
+    Franchiser-Section-End
+==========================================*/
+
+/* =======================================
+    Footer-Section-Start
+==========================================*/
+
+#footer {
+    padding: 24px 0;
+    background: linear-gradient(74deg, #027752 42.27%, #23a684 88.84%);
+}
+
+.footer .social {
+    display: flex;
+    gap: 16px;
+}
+
+.footer .social .icon {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #e9f6f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.footer .social .icon i {
+    color: #e9f6f3;
+}
+
+.footer .text p {
+    color: #e9f6f3;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+}
+
+/* =======================================
+    Footer-Section-End
+==========================================*/
+
+/* =======================================
+    Multistep-Section-Start
+==========================================*/
+.step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.step-indicators {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+}
+
+.progress-bar {
+    background: #027752;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #929a96;
+    z-index: 1;
+    background: #f8f9f9;
+}
+
+.circle.active {
+    background-color: #027752;
+    color: white;
+}
+
+.circle.completed {
+    background-color: #d1ecf1;
+    color: #027752;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.progress {
+    width: 88%;
+    position: absolute;
+    top: 20px;
+    transform: translateY(-50%);
+    background-color: #f8f9f9;
+}
+
+.step-names {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+
+.step-name {
+    color: #51645f;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.multistep-form label {
+    padding-bottom: 9px;
+    color: #51645f;
+    font-size: 16px;
+    font-weight: 500;
+    /* 24px */
+}
+
+.multistep-form .text h3 {
+    color: #394d48;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.multistep-form .text p {
+    color: #7b7d82;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.multistep-form label span {
+    color: #f6ab2f;
+}
+
+.user-data ul {
+    padding: 20px;
+    border-radius: 8px;
+    background: #e9f6f3;
+}
+
+.user-data ul li {
+    color: #929a96;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.user-data ul li span {
+    color: #51645f;
+}
+
+.multistep-form .btn.next {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #027752;
+    background: #fff;
+    color: #027752;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.multistep-form .btn.prev {
+    padding: 8px 20px;
+    border-radius: 8px;
+    border: 1px solid #929a96;
+    background: #fff;
+    color: #929a96;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* =======================================
+    Multistep-Section-End
+==========================================*/
+
+/* =======================================
+    DropImag-Section-Start
+==========================================*/
+#upload-area {
+    transition: background-color 0.3s;
+    padding: 75px 50px;
+    border-radius: 8px;
+}
+
+#upload-area.hover {
+    background-color: #f0f8ff;
+}
+
+.preview-img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+#remove-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: rgb(196, 30, 30);
+    font-size: 24px;
+}
+
+#file-label.upload-button {
+    color: #7b7d82 !important;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#file-label.upload-button span {
+    color: #7b7d82 !important;
+    display: block;
+}
+
+#file-label.upload-button span u {
+    text-decoration: none;
+    color: #1665d8;
+}
+
+.select2-container--bootstrap-5 .select2-selection--single {
+    position: relative;
+    padding-right: 30px;
+}
+
+.select2-container--bootstrap-5 .select2-selection--single {
+    border: none;
+}
+
+.select2-container--bootstrap-5 .select2-selection--single:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.select2-container--bootstrap-5 .select2-dropdown {
+    border-color: #fff;
+}
+
+.select2-container--bootstrap-5
+    .select2-dropdown
+    .select2-results__options
+    .select2-results__option.select2-results__option--selected,
+.select2-container--bootstrap-5
+    .select2-dropdown
+    .select2-results__options
+    .select2-results__option[aria-selected="true"]:not(
+        .select2-results__option--highlighted
+    ) {
+    color: #fff;
+    background-color: #23a684;
+}
+
+/* =======================================
+    DropImag-Section-End
+==========================================*/

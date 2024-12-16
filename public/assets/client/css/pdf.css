@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    font-family: "Poppins", serif;
+}
+.pdf-data {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    overflow: hidden;
+    width: 595px;
+    height: 100vh;
+}
+
+.pdf-data .pdf-header {
+    border-bottom: 2px solid #23a684;
+    padding-bottom: 18px;
+}
+
+.pdf-data .pdf-header h4 {
+    font-size: 12px;
+    color: #23a684;
+}
+
+.pdf-data .pdf-header p {
+    font-size: 8px;
+    color: #51645f;
+}
+
+.pdf-data .pdf-header p span {
+    color: #929a96;
+}
+
+.logo {
+    height: 20px;
+}
+
+.pdf-data .client-constractor {
+}
+
+.pdf-data .client-constractor h5 {
+    font-size: 12px;
+    color: #394d48;
+    margin-bottom: 3px;
+}
+
+.pdf-data .client-constractor h6 {
+    font-size: 12px;
+    color: #394d48;
+    margin-bottom: 3px;
+}
+
+.pdf-data .client-constractor p {
+    margin-bottom: 1px;
+    font-size: 8px;
+    color: #51645f;
+}
+
+.pdf-data .client-constractor p span {
+    color: #929a96;
+}
+
+.pdf-product-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: rgba(233, 246, 243, 0.7);
+    border: 1px solid #23a684;
+    text-align: center;
+    padding: 5px;
+}
+
+.pdf-product-image img {
+    height: 100%;
+}
+
+.pdf-table h5 {
+    font-size: 12px;
+    color: #394d48;
+    margin-bottom: 0;
+}
+.pdf-table a {
+    font-size: 10px;
+    color: #23a684 !important;
+    margin-bottom: 3px;
+}
+.pdf-table tr th {
+    font-size: 10px;
+    color: #394d48;
+    font-weight: 500;
+}
+.pdf-table tr td {
+    font-size: 10px;
+}
+
+.table-custom thead th {
+    background-color: #d8f5ee;
+}
+
+.table th,
+.table td {
+    padding: 5px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.shipment-custom {
+    background: #e9f6f3;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.shipment-custom h5 {
+    font-size: 11px;
+    color: #394d48;
+    font-weight: 500;
+}
+
+.shipment-custom p {
+    margin-bottom: 1px;
+    font-size: 8px;
+    color: #51645f;
+}
+
+.shipment-custom p span {
+    color: #929a96;
+}
+
+.pdf-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.pdf-shape img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.pdf-shape img:nth-child(1) {
+    bottom: 4px;
+    transform: rotate(3deg) scale(1.2);
+    left: -12px;
+}
